@@ -1,0 +1,60 @@
+*{
+
+   margin: 0px;
+   padding: 0px;
+
+}
+
+body{
+
+    height: 100vh;  
+    text-align: center;
+    background-color: rgb(201, 193, 193);
+    
+
+}
+
+.list1{
+
+    text-align: center;
+    list-style-type: none;
+    background-color: rgba(0, 0, 0, 0.575);
+    
+    
+
+}
+
+li{
+
+    text-align: left;
+    list-style-type: none;
+    background-color: gray;
+    padding-right: 80%;
+
+}
+
+p{
+
+    color: white;
+    text-align: right;
+    padding-left: 20px;
+    margin: 0 20px 0 30px;
+
+}
+
+ul{
+ 
+    text-align: center;
+    padding-left: 0;
+    width: 150px;
+
+}
+
+img{
+
+    width: 80px;
+    height: 60px;
+    float: left;
+    
+}
+

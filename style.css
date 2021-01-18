@@ -8,7 +8,6 @@
 body{
 
     height: 100vh;  
-    text-align: center;
     background-color: rgb(201, 193, 193);
     
 
@@ -16,7 +15,7 @@ body{
 
 .list1{
 
-    text-align: center;
+
     list-style-type: none;
     background-color: rgba(0, 0, 0, 0.575);
     
@@ -26,35 +25,63 @@ body{
 
 li{
 
-    text-align: left;
     list-style-type: none;
     background-color: gray;
     padding-right: 80%;
+    height: 83px;
+
 
 }
 
+li:hover{
+
+    background-color: white;
+    transition: 0.5s;
+    
+}
+
+li:hover p{
+
+    background-color: rgba(0, 0, 0, 0.671);
+    transform: translate(120px);
+    visibility: visible;
+    color: white;  
+    
+}
+
+
+
 p{
 
+
+    text-align: center;
+    width: 80px;
+    height: 84px;
+    visibility: hidden;
     color: white;
-    text-align: right;
-    padding-left: 20px;
     margin: 0 20px 0 30px;
+
+    
 
 }
 
 ul{
  
-    text-align: center;
+   
     padding-left: 0;
     width: 150px;
 
 }
 
+
 img{
 
+    padding-top: 10px;
+    padding-left: 30px;
     width: 80px;
     height: 60px;
     float: left;
+    
     
 }
 

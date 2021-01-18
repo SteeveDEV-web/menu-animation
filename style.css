@@ -15,11 +15,9 @@ body{
 
 .list1{
 
-
     list-style-type: none;
     background-color: rgba(0, 0, 0, 0.575);
-    
-    
+  
 
 }
 
@@ -45,18 +43,21 @@ li:hover p{
     background-color: rgba(0, 0, 0, 0.671);
     transform: translate(120px);
     visibility: visible;
+    position: fixed;
     color: white;  
-    
+    width: 130px;
+    transform: translateX(120px);
+    transition: 1s;
+
 }
-
-
 
 p{
 
-
-    text-align: center;
-    width: 80px;
-    height: 84px;
+    display: flex;
+    align-items: center;
+    padding-left: 50px;
+    width: 100px;
+    height: 83px;
     visibility: hidden;
     color: white;
     margin: 0 20px 0 30px;
@@ -70,6 +71,7 @@ ul{
    
     padding-left: 0;
     width: 150px;
+    
 
 }
 
